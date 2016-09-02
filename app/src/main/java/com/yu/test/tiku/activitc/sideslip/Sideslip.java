@@ -47,8 +47,6 @@ public class Sideslip extends AppCompatActivity {
     private ArrayList<MenuListViewItem> items = new ArrayList<MenuListViewItem>();
     private ArrayAdapter arrayAdapter;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
