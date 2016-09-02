@@ -69,7 +69,7 @@ public class WelcomeActivity extends AppCompatActivity {
         Animation animation = new AlphaAnimation(0,1);
         animation.setDuration(3000);
         welcome_001.startAnimation(animation);
-        System.out.println("执行欢迎界面");
+//        System.out.println("执行欢迎界面");
     }
     /*执行转跳或者打开程序*/
     private void doall(){
@@ -118,7 +118,7 @@ public class WelcomeActivity extends AppCompatActivity {
     /*跳转到启动页面*/
     private void doJump() {
 
-        Toast.makeText(this,"第一次启动",Toast.LENGTH_LONG).show();
+//        Toast.makeText(this,"第一次启动",Toast.LENGTH_LONG).show();
         Intent intent = new Intent(WelcomeActivity.this,GuideActivity.class);
         startActivity(intent);
         finish();
@@ -127,7 +127,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
     /*打开程序*/
     private void doStart() {
-        Toast.makeText(this,"不是第一次启动",Toast.LENGTH_LONG).show();
+//        Toast.makeText(this,"不是第一次启动",Toast.LENGTH_LONG).show();
         Intent intent1 = new Intent(WelcomeActivity.this,LoginActivity.class);
         startActivity(intent1);
         finish();
