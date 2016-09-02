@@ -36,6 +36,7 @@ private ImageView login_image;
             case R.id.email_sign_in_button:{
                 Toast.makeText(this,"登录",Toast.LENGTH_LONG).show();
 
+                System.out.println("    ");
             }
             break;
         }
