@@ -37,19 +37,21 @@ public class GuideActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         x.view().inject(this);
 
-
+        /*把三个页面放入集合，拖动切换显示*/
         List<Fragment> list = new ArrayList<Fragment>();
         list.add(new BlankFragment1());
         list.add(new BlankFragment2());
         list.add(new BlankFragment3());
         Myguideadapter myguideadapter = new Myguideadapter(getSupportFragmentManager(),list);
         viewPager.setAdapter(myguideadapter);
+        /*给viewPager设置监听，实现图片中的小点变化*/
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
             }
 
+            /*设置引导页下面那三个小圆点和图片滑动时的动画效果*/
             @Override
             public void onPageSelected(int position) {
                 lv_iv_01.setImageResource(R.mipmap.page_indicator_focused);

@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Administrator on 2016/9/2.
+ * 关联侧滑页（菜单）和布局
  */
 public class MyAdapter extends BaseAdapter{
     List<MenuListViewItem> list;

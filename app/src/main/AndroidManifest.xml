@@ -31,7 +31,8 @@
         </activity>
         <activity android:name=".activitc.welcome.GuideActivity" />
         <activity android:name=".activitc.login.LoginActivity" />
-        <activity android:name=".activitc.sideslip.Sideslip"></activity>
+        <activity android:name=".activitc.sideslip.Sideslip" />
+        <activity android:name=".activitc.topic.Topic"></activity>
     </application>
 
 </manifest>

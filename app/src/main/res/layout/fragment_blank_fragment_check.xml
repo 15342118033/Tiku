@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.yu.test.tiku.activitc.sideslip.BlankFragment_check">
+
+    <!-- 题目查找布局 -->
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="题目查找" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_et_search"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight ="1"
+            android:background="@drawable/input_search_bg"
+            android:inputType="text"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:hint="搜索试题名称"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_et_word"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="搜索"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
